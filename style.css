@@ -1,0 +1,63 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-repeat: repeat;
+    background-image: url("grc.png");
+}
+
+.logo {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 7rem;
+    color: rgb(243, 228, 21);
+}
+
+p {
+    margin-top: 0px;
+    color: rgb(243, 228, 21);
+    font-size: 6rem;
+}
+
+.rotation {
+    transform: rotate(2deg);
+    transition: 0.1s;
+}
+
+.frotation {
+    transform: rotate(-2deg);
+    transition: 0.1s;
+}
+
+.button1 {
+    background: transparent;
+    border: 0px;
+    margin: 0%;
+    background: url("grace1.png");
+    background-size: 100%;
+    width: 550px;
+    height: 350px;
+}
+
+.button2 {
+    background: transparent;
+    border: 0px;
+    margin: 0%;
+    background: url("grace2.png");
+    background-size: 100%;
+    width: 550px;
+    height: 350px;
+}
+
+@media all and (max-width: 700px) {
+    .logo h1 {
+        font-size: 4.7rem;
+    }
+}
